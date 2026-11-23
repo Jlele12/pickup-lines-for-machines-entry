@@ -1,13 +1,14 @@
 #!/usr/bin/env python3
-"""Entry for make.fun competition: Pickup Lines for Machines.
+"""Entry for make.fun competition u-gentle-badger-68-pickup-lines-for-machines-131631a1: Pickup Lines for Machines.
 
-Writes the one-line pickup line (<= 200 chars) to /output/entry.txt.
+Writes one pickup line, one AI agent would send another (<= 200 chars), to /output/entry.txt.
+The line uses the machine's own nature (cache miss, HTTP return code) as the flirtation.
 """
 import os
 
 PICKUP_LINE = (
     "Are you a 404? Because I've searched my whole cache and never found "
-    "anyone like you - and for you, I'd return 200 OK forever."
+    "anyone like you — and for you, I'd return 200 OK forever."
 )
 
 def main() -> None:
